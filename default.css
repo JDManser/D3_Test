@@ -1,0 +1,60 @@
+/*  Stylesheet for index.html
+    Created by John Manser
+    Date:       19/3/19
+    Updated:    19/3/19
+*/
+
+/* Start main css DO NOT EDIT */
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-left: 2%;
+}
+
+#gr{
+    position: absolute;
+    top: 33%;
+    margin-left: 2%;
+    width: 40%; /* Width of the outside container */
+}
+
+
+svg{
+    height: 90%;
+    width: 90%;
+}
+
+
+/* End main css DO NOT EDIT */
+
+
+#timeslide{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 90%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d6d4d4; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+#slider{
+    position: absolute;
+    top: 90%;
+    margin-left: 2%;
+    width: 40%; /* Width of the outside container */
+}
+
+  
